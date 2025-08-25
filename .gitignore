@@ -1,55 +1,49 @@
-# Prerequisites
-*.d
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+.DS_Store
 
-# Object files
+# Virtual environment
+*.env
+.env/
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ---- C / C++ ----
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
+*.out
+*.exe
 *.dll
 *.so
-*.so.*
 *.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.a
+*.lo
+*.la
+*.obj
+*.lib
+*.pch
 *.pdb
+*.mod
+*.idb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Build directories
+build/
+dist/
+Debug/
+Release/
 
-# debug information files
-*.dwo
+# ---- OS files ----
+Thumbs.db
+.DS_Store
